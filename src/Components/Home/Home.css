@@ -1,0 +1,26 @@
+.weather-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: -15%;
+  margin-bottom: 50px;
+}
+.weather-container h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+.weather-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.weather-box {
+  background: #262936;
+  color: #c4c1c1;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(191, 191, 191, 0.205);
+  text-align: center;
+  width: 200px;
+}

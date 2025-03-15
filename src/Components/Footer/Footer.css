@@ -1,0 +1,61 @@
+/* <!----------------------Start Footer---------------------> */
+footer {
+  background: #262936;
+  padding: 50px 0;
+  position: relative;
+}
+footer .contact {
+  position: relative;
+  margin-bottom: 30px;
+}
+footer .contact input[type="text"] {
+  padding: 15px 100px 15px 15px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+footer .contact input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  border: none;
+  background: #009ad8;
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: white;
+}
+footer .social {
+  margin-left: 33%;
+  display: flex;
+}
+footer .social a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+footer .social a:hover {
+  background: #009ad8;
+  color: white;
+}
+footer p {
+  color: #bfc1c8;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+/* <!----------------------End Footer---------------------> */

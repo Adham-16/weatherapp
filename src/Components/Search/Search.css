@@ -1,0 +1,39 @@
+/* <!----------------------Start Search-------------------> */
+.search-section {
+  background-image: url("/src/assets/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  padding: 70px 0;
+}
+.search {
+  position: relative;
+  margin-bottom: 70px;
+}
+.search input[type="text"] {
+  background-color: #1e202b;
+  padding: 15px 50px 20px 20px;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+}
+.search input[type="button"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 40px;
+  border: none;
+  background: #009ad8;
+  border-radius: 30px;
+  color: white;
+}
+.search input[type="text"]::placeholder {
+  color: #6a7175;
+}
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+  caret-color: rgb(64, 0, 255);
+}
+/* <!----------------------End Search---------------------> */
